@@ -1,8 +1,8 @@
 import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
-import LData from "./L2.json";
+import LData from "./L.json";
 
-const L2 = ({ style }: { style?: React.CSSProperties }) => {
+export default ({ style }: { style?: React.CSSProperties }) => {
   return (
     <Player
       autoplay
@@ -14,5 +14,3 @@ const L2 = ({ style }: { style?: React.CSSProperties }) => {
     />
   );
 };
-
-export default L2;
