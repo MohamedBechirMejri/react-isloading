@@ -1,0 +1,20 @@
+{
+  "name": "react-isloading",
+  "version": "1.0.0",
+  "description": "Cool loaders for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "lottie",
+    "loaders",
+    "cool"
+  ],
+  "author": "MohamedBechirMejri",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
