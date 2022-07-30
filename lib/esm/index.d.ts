@@ -1,1 +1,2 @@
-export declare function sayHello(name: string): string;
+import SayHello from "./Components/test";
+export { SayHello };
