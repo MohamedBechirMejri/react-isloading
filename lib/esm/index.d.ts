@@ -1,3 +1,2 @@
-/// <reference types="react" />
-declare const L1: JSX.Element;
+import L1 from "./Components/L1";
 export { L1 };
