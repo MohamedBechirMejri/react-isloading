@@ -1,6 +1,6 @@
 {
   "name": "react-isloading",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cool loaders for react",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -13,11 +13,11 @@
     "lottie",
     "loaders",
     "cool"
-  ],  
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MohamedBechirMejri/react-isloading.git"
-  },  
+  },
   "bugs": {
     "url": "https://github.com/MohamedBechirMejri/react-isloading/issues"
   },
