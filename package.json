@@ -13,7 +13,11 @@
     "lottie",
     "loaders",
     "cool"
-  ],
+  ],  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedBechirMejri/react-isloading.git"
+  },
   "author": "MohamedBechirMejri",
   "license": "MIT",
   "devDependencies": {
@@ -39,5 +43,6 @@
   ],
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.4.7"
-  }
+  },
+  "homepage":  "https://mohamedbechirmejri.dev/react-isloading-website/"
 }
