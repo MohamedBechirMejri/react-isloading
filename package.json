@@ -17,6 +17,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MohamedBechirMejri/react-isloading.git"
+  },  
+  "bugs": {
+    "url": "https://github.com/MohamedBechirMejri/react-isloading/issues"
   },
   "author": "MohamedBechirMejri",
   "license": "MIT",
