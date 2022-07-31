@@ -1,6 +1,6 @@
 {
   "name": "react-isloading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cool loaders for react",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
