@@ -14,6 +14,10 @@
 
 [https://mohamedbechirmejri.dev/react-isloading-website/](https://mohamedbechirmejri.dev/react-isloading-website/)
 
+### You can also check out the Previews on
+
+[Storybook](http://mohamedbechirmejri.dev/react-isloading/)
+
 ### import the desired Loader (or Loaders) into your component
 
 `import { L5, L40 } from 'react-isloading'`
