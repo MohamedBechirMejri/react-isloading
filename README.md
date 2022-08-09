@@ -2,6 +2,8 @@
 
 | a nice set of loading animations for react
 
+![Preview](./preview.gif)
+
 ## How to install and Use
 
 ### install using your favorite package manager
@@ -24,7 +26,7 @@
 
 ### now you can use the loader inside any component just add
 
-```
+```jsx
 <L5
   style={{
     height: "15rem",
