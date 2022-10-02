@@ -14,7 +14,8 @@
     "react",
     "lottie",
     "loaders",
-    "cool"
+    "cool",
+    "animation"
   ],
   "repository": {
     "type": "git",
