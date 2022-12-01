@@ -1,6 +1,6 @@
 {
   "name": "react-isloading",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Cool loaders for react",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -27,29 +27,29 @@
   "author": "MohamedBechirMejri",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@rollup/plugin-commonjs": "^23.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
-    "@storybook/addon-actions": "^6.5.10",
-    "@storybook/addon-essentials": "^6.5.10",
-    "@storybook/addon-interactions": "^6.5.10",
-    "@storybook/addon-links": "^6.5.10",
-    "@storybook/builder-webpack4": "^6.5.10",
-    "@storybook/manager-webpack4": "^6.5.10",
-    "@storybook/react": "^6.5.10",
+    "@babel/core": "^7.20.5",
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "babel-loader": "^9.0.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "babel-loader": "^9.1.0",
     "gh-pages": "^4.0.0",
-    "postcss": "^8.4.14",
+    "postcss": "^8.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup": "^3.0.0",
+    "rollup": "^3.5.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-typescript2": "^0.34.0",
-    "typescript": "^4.7.4"
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.3"
   },
   "peerDependencies": {
     "react": "^18.2.0",
@@ -59,7 +59,7 @@
     "/lib"
   ],
   "dependencies": {
-    "@lottiefiles/react-lottie-player": "^3.4.7"
+    "@lottiefiles/react-lottie-player": "^3.4.9"
   },
   "homepage": "https://mohamedbechirmejri.dev/react-isloading-website/"
 }
