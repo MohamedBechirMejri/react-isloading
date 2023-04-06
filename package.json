@@ -30,7 +30,7 @@
     "@babel/core": "^7.20.5",
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-actions": "^7.0.2",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",
     "@storybook/addon-links": "^7.0.2",
