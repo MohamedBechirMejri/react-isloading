@@ -1927,12 +1927,12 @@
     "@storybook/global" "^5.0.0"
 
 "@storybook/addon-interactions@^7.0.2":
-  version "7.6.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.5.tgz#13013614eb132f45b19d65338a72b948635313b2"
-  integrity sha512-8Hzt9u1DQzFvtGER/hCGIvGpCoVwzVoqpM98f2KAIVx/NMFmRW7UyKihXzw1j2t4q2ZaF2jZDYWCBqlP+iwILA==
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.6.tgz#e69bf9de4a5be55282189de905254a4d45a0b71d"
+  integrity sha512-EJWx6ciJPgv1c75tB/M4smWDpPDGM/L24v4DZxGpl1eV3oQOSQCKImG5btwoy6QcIi68ozroUHdUti/kzCKS1w==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/types" "7.6.5"
+    "@storybook/types" "7.6.6"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
