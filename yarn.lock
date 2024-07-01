@@ -2283,41 +2283,6 @@
     util-deprecate "^1.0.2"
     webpack "4"
 
-"@storybook/core-common@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-8.1.10.tgz#4fd6262c481d4140398c74caf0e089f41b4ac5f1"
-  integrity sha512-+0GhgDRQwUlXu1lY77NdLnVBVycCEW0DG7eu7rvLYYkTyNRxbdl2RWsQpjr/j4sxqT6u82l9/b+RWpmsl4MgMQ==
-  dependencies:
-    "@storybook/core-events" "8.1.10"
-    "@storybook/csf-tools" "8.1.10"
-    "@storybook/node-logger" "8.1.10"
-    "@storybook/types" "8.1.10"
-    "@yarnpkg/fslib" "2.10.3"
-    "@yarnpkg/libzip" "2.3.0"
-    chalk "^4.1.0"
-    cross-spawn "^7.0.3"
-    esbuild "^0.18.0 || ^0.19.0 || ^0.20.0"
-    esbuild-register "^3.5.0"
-    execa "^5.0.0"
-    file-system-cache "2.3.0"
-    find-cache-dir "^3.0.0"
-    find-up "^5.0.0"
-    fs-extra "^11.1.0"
-    glob "^10.0.0"
-    handlebars "^4.7.7"
-    lazy-universal-dotenv "^4.0.0"
-    node-fetch "^2.0.0"
-    picomatch "^2.3.0"
-    pkg-dir "^5.0.0"
-    prettier-fallback "npm:prettier@^3"
-    pretty-hrtime "^1.0.3"
-    resolve-from "^5.0.0"
-    semver "^7.3.7"
-    tempy "^3.1.0"
-    tiny-invariant "^1.3.1"
-    ts-dedent "^2.0.0"
-    util "^0.12.4"
-
 "@storybook/core-common@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-8.1.11.tgz#02600936b5285ebefbfe9d6caf653aab5e213257"
@@ -2391,21 +2356,6 @@
     "@storybook/csf-tools" "8.1.11"
     unplugin "^1.3.1"
 
-"@storybook/csf-tools@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-8.1.10.tgz#cbf36ff3db6f6076959b15a1e43590be62c28806"
-  integrity sha512-bm/J1jAJf1YaKhcXgOlsNN02sf8XvILXuVAvr9cFC3aFkxVoGbC2AKCss4cgXAd8EQxUNtyETkOcheB5mJ5IlA==
-  dependencies:
-    "@babel/generator" "^7.24.4"
-    "@babel/parser" "^7.24.4"
-    "@babel/traverse" "^7.24.1"
-    "@babel/types" "^7.24.0"
-    "@storybook/csf" "^0.1.7"
-    "@storybook/types" "8.1.10"
-    fs-extra "^11.1.0"
-    recast "^0.23.5"
-    ts-dedent "^2.0.0"
-
 "@storybook/csf-tools@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-8.1.11.tgz#e89699f6fdc336778f7174a01734f37025ca09c9"
@@ -2434,20 +2384,6 @@
   integrity sha512-53JeLZBibjQxi0Ep+/AJTfxlofJlxy1jXcSKENlnKxHjWEYyHQCumMP5yTFjf7vhNnMjEpV3zx6t23ssFiGRyw==
   dependencies:
     type-fest "^2.19.0"
-
-"@storybook/docs-tools@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-8.1.10.tgz#5ffd3a49dfc41786ceddcf72f282267aeff113fb"
-  integrity sha512-FsO/+L9CrUfAIbm9cdH9UpjTusT7L5RZxN4WCXkiF5SpAVyBoY8kar3RzTZVoh4aQxt1yGWYC+SZGjgf++xa4g==
-  dependencies:
-    "@storybook/core-common" "8.1.10"
-    "@storybook/core-events" "8.1.10"
-    "@storybook/preview-api" "8.1.10"
-    "@storybook/types" "8.1.10"
-    "@types/doctrine" "^0.0.3"
-    assert "^2.1.0"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
 
 "@storybook/docs-tools@8.1.11":
   version "8.1.11"
@@ -2570,11 +2506,6 @@
     npmlog "^5.0.1"
     pretty-hrtime "^1.0.3"
 
-"@storybook/node-logger@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.1.10.tgz#75e6049501fbd4b33c8aabbb8c701314e71ade73"
-  integrity sha512-djgbAROgGAvz/gr49egBxCHn1+rui57e76qa9aOMPzEBcxsGrnnKKp0uNdiNt4M7Xv6S2QHbJ2SfOlHhWmMeaA==
-
 "@storybook/node-logger@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.1.11.tgz#451750347869cf128a02acfee8232d9952f99953"
@@ -2664,27 +2595,22 @@
     unfetch "^4.2.0"
     util-deprecate "^1.0.2"
 
-"@storybook/react-dom-shim@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.10.tgz#c4c8cb47827185e240972358f38081290cecb8b8"
-  integrity sha512-+HS75Pq8jb3xkVq0hK33D84aGfbJCURRB+GN2vfTMmmjguQt7z2+MnGqRgrUCt6h2rxU3VdPg9OBnYi/UC0Zrg==
-
 "@storybook/react-dom-shim@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.1.11.tgz#d4cc6222eb1f169d10c5403dbb580e4c3e29c142"
   integrity sha512-KVDSuipqkFjpGfldoRM5xR/N1/RNmbr+sVXqMmelr0zV2jGnexEZnoa7wRHk7IuXuivLWe8BxMxzvQWqjIa4GA==
 
 "@storybook/react@^8.0.1":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.10.tgz#7fd32dbcb2ed5553f63b28141e3a7b6ce38edd91"
-  integrity sha512-y0ycq19tTLLk+4rB+nfCPCtoFBWC0QvmMaJY32dbAjWPk+UNFGhWdqjg0oP1NwXYL18WnhRzlyz1Rojw0aXk1w==
+  version "8.1.11"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-8.1.11.tgz#89408fa34b1ce79a3df17c2f41745fd37ba9f492"
+  integrity sha512-t+EYXOkgwg3ropLGS9y8gGvX5/Okffu/6JYL3YWksrBGAZSqVV4NkxCnVJZepS717SyhR0tN741gv/SxxFPJMg==
   dependencies:
-    "@storybook/client-logger" "8.1.10"
-    "@storybook/docs-tools" "8.1.10"
+    "@storybook/client-logger" "8.1.11"
+    "@storybook/docs-tools" "8.1.11"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "8.1.10"
-    "@storybook/react-dom-shim" "8.1.10"
-    "@storybook/types" "8.1.10"
+    "@storybook/preview-api" "8.1.11"
+    "@storybook/react-dom-shim" "8.1.11"
+    "@storybook/types" "8.1.11"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^18.0.0"
