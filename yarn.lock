@@ -1997,17 +1997,6 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/channels@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-8.1.10.tgz#c6fd14e0a4ff922c448a1411bee898093eab576c"
-  integrity sha512-CxZE4XrQoe+F+S2mo8Z9HTvFZKfKHIIiwYfoXKCryVp2U/z7ZKrely2PbfxWsrQvF3H0+oegfYYhYRHRiM21Zw==
-  dependencies:
-    "@storybook/client-logger" "8.1.10"
-    "@storybook/core-events" "8.1.10"
-    "@storybook/global" "^5.0.0"
-    telejson "^7.2.0"
-    tiny-invariant "^1.3.1"
-
 "@storybook/channels@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-8.1.11.tgz#7d4b1877ae31d4c073c17a36b157067e2a71f231"
@@ -2086,13 +2075,6 @@
   dependencies:
     core-js "^3.8.2"
     global "^4.4.0"
-
-"@storybook/client-logger@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-8.1.10.tgz#aa7c649275f12e48cdcfb687c6b61086be2c883a"
-  integrity sha512-sVXCOo7jnlCgRPOcMlQGODAEt6ipPj+8xGkRUws0kie77qiDld1drLSB6R380dWc9lUrbv9E1GpxCd/Y4ZzSJQ==
-  dependencies:
-    "@storybook/global" "^5.0.0"
 
 "@storybook/client-logger@8.1.11":
   version "8.1.11"
@@ -2332,14 +2314,6 @@
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/core-events@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-8.1.10.tgz#88fb58bc43a3e58c498985a2a18687c59efc7631"
-  integrity sha512-aS4zsBVyJds74+rAW0IfTEjULDCQwXecVpQfv11B8/89/07s3bOPssGGoTtCTaN4pHbduywE6MxbmFvTmXOFCA==
-  dependencies:
-    "@storybook/csf" "^0.1.7"
-    ts-dedent "^2.0.0"
-
 "@storybook/core-events@8.1.11":
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-8.1.11.tgz#e72f9563aef3286c106021d9926723bc24614f4a"
@@ -2510,26 +2484,6 @@
   version "8.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.1.11.tgz#451750347869cf128a02acfee8232d9952f99953"
   integrity sha512-wdzFo7B2naGhS52L3n1qBkt5BfvQjs8uax6B741yKRpiGgeAN8nz8+qelkD25MbSukxvbPgDot7WJvsMU/iCzg==
-
-"@storybook/preview-api@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-8.1.10.tgz#87680df22ffd805418baa0b07daeadb98aaefdba"
-  integrity sha512-0Gl8WHDtp/srrA5uBYXl7YbC8kFQA7IxVmwWN7dIS7HAXu63JZ6JfxaFcfy+kCBfZSBD7spFG4J0f5JXRDYbpg==
-  dependencies:
-    "@storybook/channels" "8.1.10"
-    "@storybook/client-logger" "8.1.10"
-    "@storybook/core-events" "8.1.10"
-    "@storybook/csf" "^0.1.7"
-    "@storybook/global" "^5.0.0"
-    "@storybook/types" "8.1.10"
-    "@types/qs" "^6.9.5"
-    dequal "^2.0.2"
-    lodash "^4.17.21"
-    memoizerific "^1.11.3"
-    qs "^6.10.0"
-    tiny-invariant "^1.3.1"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
 
 "@storybook/preview-api@8.1.11":
   version "8.1.11"
@@ -2762,15 +2716,6 @@
     "@storybook/client-logger" "8.1.11"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
-
-"@storybook/types@8.1.10":
-  version "8.1.10"
-  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-8.1.10.tgz#944b1aa811de585830547a346bf5b53521f3b20e"
-  integrity sha512-UJ97iqI+0Mk13I6ayd3TaBfSFBkWnEauwTnFMQe1dN/L3wTh8laOBaLa0Vr3utRSnt2b5hpcw/nq7azB/Gx4Yw==
-  dependencies:
-    "@storybook/channels" "8.1.10"
-    "@types/express" "^4.7.0"
-    file-system-cache "2.3.0"
 
 "@storybook/types@8.1.11":
   version "8.1.11"
@@ -9520,9 +9465,9 @@ typedarray@^0.0.6:
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
 typescript@^5.0.2:
-  version "5.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.2.tgz#c26f023cb0054e657ce04f72583ea2d85f8d0507"
-  integrity sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.3.tgz#e1b0a3c394190838a0b168e771b0ad56a0af0faa"
+  integrity sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==
 
 uglify-js@^3.1.4:
   version "3.17.4"
