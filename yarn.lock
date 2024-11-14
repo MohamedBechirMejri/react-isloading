@@ -1474,10 +1474,21 @@
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
-"@storybook/addon-actions@8.4.3", "@storybook/addon-actions@^8.0.0":
+"@storybook/addon-actions@8.4.3":
   version "8.4.3"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.4.3.tgz#1645b5bd5e11cab64debf4e113238a4b84212f64"
   integrity sha512-3lPiMszzxi7YWouIiWSLELCQNFLY2ABmD7O1u2+i/0ZXZZeHqIrhdNoVCj9j0qMisAe9neYzDWLfyKX5yv226g==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+    "@types/uuid" "^9.0.1"
+    dequal "^2.0.2"
+    polished "^4.2.2"
+    uuid "^9.0.0"
+
+"@storybook/addon-actions@^8.0.0":
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.4.4.tgz#905f14e37eaf53196cf70245994d7bb083378b10"
+  integrity sha512-+Dd6alcieS6UN7IKhXLuhyQYQMu9HG/Tdr790a4EOQKpJM1NxIMuPuUH3fAoKfa9VhtI1BxTBr7zNtzg9Akqhg==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@types/uuid" "^9.0.1"
